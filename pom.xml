@@ -178,6 +178,15 @@
                     </webApp>
                 </configuration>
             </plugin>
+	    <plugin>
+    		<groupId>org.apache.maven.plugins</groupId>
+    		<artifactId>mave-surefire-plugin</artifactId>
+    		<version>3.0.0-M3</version>
+    		<configuration>
+        		<testFailureIgnore>true</testFailureIgnore>
+        		<shutdown>kill</shutdown>
+    		</configuration>
+	    </plugin>
 		<!-- CODE COVERAGE -->
  		    <plugin>
  		        <groupId>org.jacoco</groupId>

@@ -1,9 +1,8 @@
 ## NOTE
-- This web project did not create by me.
-- I used this project for practicing my DevOps skills.
-- I used helm, kubernetes cluster (1 master and 2 worker node) and docker for containerazition.
-- I used Jenkins (Jenkins file (Pipeline as a code)), maven, dockerhub, helm and Sonarqube for CICD pipeline.
-- I used AWS EC2 instances for Jenkins, Sonarqube (Slave for jenkins) and Kubernetes master (Slave for jenkins and creating cluster with AWS).
+- The web project used was not developed by me; instead, I utilized it to enhance my DevOps skills.
+- Practiced containerization using Helm, Kubernetes (with 1 master and 2 worker nodes), and Docker.
+- Implemented a comprehensive CI/CD pipeline employing Jenkins (Jenkinsfile as a code), Maven, Docker Hub, Helm, and SonarQube.
+- Employed AWS EC2 instances for hosting Jenkins, SonarQube (serving as a Jenkins slave), and the Kubernetes master (serving as a Jenkins slave and facilitating cluster creation on AWS).
 
 ## Prerequisites
 - JDK 1.8 or later
